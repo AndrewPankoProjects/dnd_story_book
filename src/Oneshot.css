@@ -1,0 +1,84 @@
+#newbody{
+    background-image: url("./images/bookbackground2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    font-size: 30px;
+}
+
+.fade {
+    padding: 50px;
+    background-repeat: no-repeat;
+    transition: opacity 0.7s ease-in;
+    background-size: cover;
+  }
+  
+  .fadeOut { opacity: 0; }
+  .fadeIn { opacity: 1; }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Actual scroll down*/
+
+.scroll--down {
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .scroll--down::before,
+  .scroll--down::after {
+    content: "";
+    width: 10px;
+    transform: translate(-50%, 60%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll--down 1s ease-in-out infinite;
+  }
+  .scroll--down::before {
+    animation-delay: 0.3s;
+    /* animation: scroll-down 1s ease-in-out infinite; */
+  }
+  
+  @keyframes scroll--down {
+    0% {
+      /* top:20%; */
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

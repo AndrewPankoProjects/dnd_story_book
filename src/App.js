@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import './Oneshot.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div id="alto">
+
+      <div id="title">
+          <h1>Welcome to Dungeons & Dragons: Story Mode</h1>
+      </div>
+      <div id="info">
+        <h1>Hover over the book to open it!</h1>
+      </div>
+      
+      <div className='scroll-down'></div>
+
+      <div className="book">
+          <div className='cover'>
+            <h1 id="bookTitle">DnD Story Mode</h1>
+          </div>
+          <div className='page'></div>
+          <div className='page'></div>
+          <div className='page'></div>
+          <div className='page'></div>
+          <div className='page'></div>
+          <div className='last-page'>
+            <h2 id="desc">Hello there Adventurer... blah blah blah click the big green button..</h2>
+            <button id="goToStory">
+              <a href="#section2">Start Adventure!</a>
+            </button>
+          </div>
+          <div className='back-cover'></div>
+        </div>
+      </div>
+    </> 
   );
 }
 
