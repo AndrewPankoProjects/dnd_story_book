@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dnd_story_book/static/css/main.d9322311.css",
+    "main.js": "/dnd_story_book/static/js/main.5989917c.js",
+    "static/media/bookbackground2.png": "/dnd_story_book/static/media/bookbackground2.849eb1eef0d4293dd755.png",
+    "static/media/dndfont.TTF": "/dnd_story_book/static/media/dndfont.374d4b3110d22f2d685e.TTF",
+    "index.html": "/dnd_story_book/index.html",
+    "main.d9322311.css.map": "/dnd_story_book/static/css/main.d9322311.css.map",
+    "main.5989917c.js.map": "/dnd_story_book/static/js/main.5989917c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9322311.css",
+    "static/js/main.5989917c.js"
+  ]
+}
